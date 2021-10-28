@@ -1,0 +1,39 @@
+nav{
+    position: relative;
+    background: #063970;
+    width: 100%;
+    height: 10vh;
+    
+}
+
+.linkList{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 100%;
+}
+
+.linkList a{
+    text-decoration: none;
+}
+
+.nav-link{
+    margin: 10px 8vw;
+    color: #fff;
+}
+
+.btn-toggle{
+
+    border-radius: 50px;
+    padding: 10px 20px;
+}
+
+.dark-btn{
+    background: #222;
+    color: #fff;
+    
+}
+
+
