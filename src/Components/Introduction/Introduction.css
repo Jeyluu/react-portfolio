@@ -1,0 +1,180 @@
+
+
+.intro-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    background-image: url(./introduction-bg.jpg);
+}
+
+.photo img {
+    width: 300px;
+    border-radius: 50px;
+    margin: 50px 100px;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+    animation: 2s appearImg;
+}
+
+@keyframes appearImg {
+    0% {
+        opacity: 0;
+        transform: translateX(-1000px);
+    }
+
+    60% {
+        opacity: 0;
+        transform: translateX(-500px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0px)
+    }
+}
+
+.text-block {
+
+    font-family: 'Coda', cursive;
+    text-align: center;
+    color: #fff;
+    width: 600px;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.315);
+    padding: 2vw;
+    margin: 50px 100px;
+    box-shadow: rgba(17, 17, 26, 0.562) 0px 1px 0px, rgba(17, 17, 26, 0.459) 0px 8px 24px, rgba(17, 17, 26, 0.63) 0px 16px 48px;
+    animation: 2.5s appearTxtBlock;
+
+    overflow: hidden;
+
+}
+
+@keyframes appearTxtBlock {
+    0% {
+        opacity: 0;
+        transform: translateX(-250px);
+    }
+
+    70% {
+        opacity: 0;
+        transform: translateX(-160px);
+        background: rgba(0, 0, 0, 0.103);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+        background: rgba(0, 0, 0, 0.315);
+    }
+}
+
+.text-block-content h1{
+    font-family: 'Black Ops One', cursive;
+    font-size: 50px;
+    text-shadow:    -1px 2px 0px #93b9b9,
+                    -2px 4px 0px #3c4444,
+                    -3px 8px 0px #212525;
+}
+
+
+.text-block-content>*:not(h1,h2) {
+
+    animation: 3s appearTxtBlockContent;
+    color: #fff;
+}
+
+@keyframes appearTxtBlockContent {
+    0%{
+        opacity: 0;
+        color: rgba(255, 255, 255, 0);
+        transform: translateX(500px);
+    }
+    90% {
+
+        opacity: 0;
+        transform: translateX(200px);
+
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.activities-list{
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    list-style-type: none;
+    font-size: 3vw;
+    margin: 10px 20px;
+    
+}
+
+.logo-1{
+
+    animation: 4s appearLogo1;
+    
+}
+
+@keyframes appearLogo1{
+    0%{
+        opacity: 0;
+        transform: translateX(-500px);
+    }
+    70%{
+        opacity: 0;
+        transform: translateX(-250px);
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+.logo-2{
+    animation: 4.5s appearLogo2;
+}
+
+@keyframes appearLogo2{
+    0%{
+        opacity: 0;
+        transform: translateX(-1000px);
+    }
+
+    80%{
+        opacity: 0;
+        transform: translateX(-500px);
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+
+.logo-3{
+
+    animation: 5s appearLogo3;
+}
+
+@keyframes appearLogo3{
+    0%{
+        opacity: 0;
+        transform: translateX(-1500px);
+    }
+
+    90%{
+        opacity: 0;
+        transform: translateX(-750px);
+    }
+
+    100%{
+        
+        opacity: 1;
+    }
+}
