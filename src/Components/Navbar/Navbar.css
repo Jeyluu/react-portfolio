@@ -2,8 +2,9 @@ nav{
     position: relative;
     background: #063970;
     width: 100%;
-    height: 14vh;
+    height: 15vh;
     font-family: 'Coda', cursive;
+
 }
 
 .linkList{
@@ -16,25 +17,30 @@ nav{
 }
 
 .linkList a{
+    text-align: center;
     text-decoration: none;
+    margin: 0 5px;
+    padding: 20px 0;
+    transition: 0.2s linear;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+}
+.linkList a:hover{
+    border: 1px solid rgba(0, 110, 255, 0.432);
+    margin: 0 10px; /* Besoin avis Enzo */
+    transform: translateY(10px);
+    border-radius: 10px;
+    background-color: #42378f;
+    background-image: linear-gradient(180deg, #42378f 10%, #cc020f 70%); /* Mettre la couleur rouge ou orange */
+    font-size: 1.5vw;
+
 }
 
 .nav-link{
-    margin: 10px 8vw;
+    margin: 1px 8vw;
     color: #fff;
-    font-size: 25px;
+    font-size: 1vw;
 }
 
-.btn-toggle{
-
-    border-radius: 50px;
-    padding: 10px 20px;
-}
-
-.dark-btn{
-    background: #222;
-    color: #fff;
-    
-}
 
 
